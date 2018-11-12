@@ -39,7 +39,7 @@ endFrameDuration=5.0           # seconds to show the resultframe<br/>
 minimumDurationFrame= 0.2      # seconds that a turn should be visible at minimum<br/>
 maximumDurationFrame= 5.0      # seconds that a turn should be visible at maximum<br/>
 timeCompression=0.1            # normal playback: use 1. Half speed: use 2. Double speed: use 0.5, etc.<br/>
-Note that the timeCompression is only applied to the turns played.
+(Note that the timeCompression is only applied to the moves, not the begin-, end-, and pre-end frame.)
 
  -and you can <br/>
 <b>python makeGifs.py someGameFolder<br/></b>
