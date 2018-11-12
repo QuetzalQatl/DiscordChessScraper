@@ -8,7 +8,7 @@ Using anything lower then 3.6.7 would probably work (fingers crossed), but dont 
 
 Python tool to scrape the clipboard for information from the Discord Chess Bot. 
 Can also reverse the boards to show the black side of the game, 
-and can make an animated gif off the game. 
+and can make an animated gif showing the game. 
 
  <b>-dependencies:<br/></b>
 pip install imageio<br/>
