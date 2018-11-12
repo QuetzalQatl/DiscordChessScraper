@@ -5,9 +5,7 @@ import win32clipboard
 #pip install imageio
 import imageio
 
-
 import shutil
-
 
 #pip install Pillow
 from PIL import Image
@@ -15,8 +13,6 @@ from PIL import ImageDraw
 from PIL import ImageFont
 
 timeout=2500 # set time in milleseconds between updates
-#server='506653350125895690'
-#channel='508698804820770832'
 defaultBoardImg='0000000000000.png'
 unknownImageFolder='unknownImage'
 
