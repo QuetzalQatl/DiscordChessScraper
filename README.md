@@ -1,5 +1,10 @@
 # DiscordChessScraper
-<i>todo: uses win32api, so windows only, needs mac/linux implementations to: grab clipboard contents for type html (simple text wont do!), and for uniform filepath handling</i>
+<i>todo: uses win32api, so windows only, needs mac/linux implementations to: grab clipboard contents for type html (simple text wont do!), and for uniform filepath handling
+
+Warning: use python version 3.6.7, and dependencies loaded from pip, <br>
+or 3.7, but then you will have to compile some dependencies yourself that are not in pip (yet?)<br>
+Using anything lower then 3.6.7 would probably work (fingers crossed), but dont use version 2
+</i>
 
 Python tool to scrape the clipboard for information from the Chess Bot. 
 Can also reverse the boards to show the black side of the game, 
