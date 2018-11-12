@@ -12,12 +12,11 @@ python dicordChessScraper.py<br/>
 select and ctrl-c chessbot channel information<br/>
 after each ctrl-c, wait for the parser to finish, before you do another one.
 
-Boards found will be saved into the folder holding their game, or, if no game is (yet) known, in a folder called 'unknownImage'.<br/>
-When a game starts, a title frame will be generated showing who is black and who is white.<br/>
+Boards found will be saved into the folder holding their game, or, if no game is (yet) known, in a folder called 'unknownImage'.
+When a game starts, a title frame will be generated showing who is black and who is white.
 When a game ends, an end frame will be generated showing the result.
 
-If you think you scraped an entire game (you can check this by browsing the folder images to see if all the moves show up).<br/>
-Games will show up in someGameFolder, wich looks like game0150532345134, 'game', followed by a discord timestamp at which the game started.
+If you think you scraped an entire game (you can check this by browsing the folder images to see if all the moves show up). Games will show up in someGameFolder, wich looks like game0150532345134, 'game', followed by a discord timestamp at which the game started.
 
 you can <br/>
 python reverseBoards.py someGameFolder<br/>
