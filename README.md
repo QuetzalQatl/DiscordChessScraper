@@ -6,7 +6,7 @@ or 3.7, but then you will have to compile some dependencies yourself that are no
 Using anything lower then 3.6.7 would probably work (fingers crossed), but dont use version 2
 </i>
 
-Python tool to scrape the clipboard for information from the Chess Bot. 
+Python tool to scrape the clipboard for information from the Discord Chess Bot. 
 Can also reverse the boards to show the black side of the game, 
 and can make an animated gif off the game. 
 
