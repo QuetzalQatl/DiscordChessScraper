@@ -18,8 +18,9 @@ Boards found will be saved into the folder holding their game, or, if no game is
 When a game starts, a title frame will be generated showing who is black and who is white.
 When a game ends, an end frame will be generated showing the result.
 
-If you think you scraped an entire game (you can check this by browsing the folder images to see if all the moves show up). Games will show up in someGameFolder, wich looks like game0150532345134, 'game', followed by a discord timestamp at which the game started.
+Games will show up in someGameFolder, wich looks like game0150532345134, 'game', followed by a discord timestamp at which the game started.
 
+If you think you scraped an entire game (you can check this by browsing the folder images to see if all the moves show up)
  -you can <br/>
 <b>python reverseBoards.py someGameFolder<br/></b>
 this will create a folder called someGameFolderReversed, with all the boards in it, but shown from black side.
